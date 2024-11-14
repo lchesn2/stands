@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>HNL Monitor Stands</title>
+
+  <!-- slider stylesheet -->
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="./static/css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="./static/css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="./static/css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="{{ url_for('index') }}">
+            <span>
+            HNL Monitor Stands
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="{{ url_for('index') }}">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="{{ url_for('about_us') }}"> About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url_for('blog') }}"> Blog </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url_for('product') }}"> Product</a>
+                </li>
+        
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Blog
+        </h2>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="./static/images/si/withmonitors.jpg" alt="">
+        </div>
+        <div class="detail-box">
+          <br><br><br>
+
+          <br><br>
+
+          <h3>The Grind</h3>
+          <p>
+            
+
+          When I first started working on this monitor stand, I had no experience in manufacturing or product design—only a strong vision of what I wanted to create. Balancing work and this new venture was exhausting, but I spent every spare hour reading, researching, and prototyping. I wanted a monitor stand that was lightweight yet durable, one that could be set up in seconds without tools.<br><br>
+
+          There were days when my designs failed completely, when prototypes crumbled under pressure or just didn’t fit my vision. But each challenge only made me more determined. With every test and redesign, I got closer to something that felt right. When I finally held the first successful prototype, I knew all the late nights and setbacks had been worth it. This wasn’t just a product to me—it was a solution I knew others needed, too.
+          </p>
+
+        </div>
+
+        <div class="detail-box">
+          <h3>The Spark</h3>
+          <p>
+            I’ll never forget the day the idea for designing a portable monitor stand first came to me. I was working on a client project in a crowded café, my laptop and extra monitor precariously balanced on a small table. My setup was cumbersome, and by the time I packed everything up, I was sore and frustrated. That’s when it hit me: remote work shouldn’t mean sacrificing comfort and productivity.<br><br>
+
+            I envisioned a solution that would allow people like me—freelancers, students, remote workers—to create a full, professional workspace anywhere. LiteLift was born out of this dream to provide an efficient, portable monitor stand, one that would fit seamlessly into any lifestyle. Starting this journey wasn’t easy, but I was driven by the hope of making remote work just as comfortable and productive as any traditional office.       </p>
+
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!--<section class="about_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          The Spark
+        </h2>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="images/about-img.png" alt="">
+        </div>
+        <div class="detail-box">
+          <p>
+            I’ll never forget the day the idea for designing a portable monitor stand first came to me. I was working on a client project in a crowded café, my laptop and extra monitor precariously balanced on a small table. My setup was cumbersome, and by the time I packed everything up, I was sore and frustrated. That’s when it hit me: remote work shouldn’t mean sacrificing comfort and productivity.
+
+            I envisioned a solution that would allow people like me—freelancers, students, remote workers—to create a full, professional workspace anywhere. LiteLift was born out of this dream to provide an efficient, portable monitor stand, one that would fit seamlessly into any lifestyle. Starting this journey wasn’t easy, but I was driven by the hope of making remote work just as comfortable and productive as any traditional office.       </p>
+
+        </div>
+      </div>
+    </div>
+  </section>-->
+  <!-- end about section -->
+
+  <!-- info section -->
+  <section class="info_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_contact">
+            <div class="info_logo">
+              <a href="{{ url_for('index') }}">
+                <span>
+                  HNL
+                </span>
+              </a>
+            </div>
+            <h5>
+              Contact Us
+            </h5>
+            <!--<div>
+              <div class="img-box">
+                <img src="./static/images/location.png" width="18px" alt="" />
+              </div>
+              <p>
+                Page when looking at its layou
+              </p>
+            </div>-->
+            <div>
+              <div class="img-box">
+                <img src="./static/images/phone.png" width="18px" alt="" />
+              </div>
+              <p>
+                +01 1234567890
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="./static/images/envelope.png" width="18px" alt="" />
+              </div>
+              <p>
+                demo@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_links"> <!--info_info-->
+            <h5>
+              Customer Support
+            </h5>
+
+            <ul>
+              <li>
+                <a href="">
+                  Contact Support
+                </a>
+              </li>
+              <li>
+                <a href="https://www.amazon.com/">
+                  Order Tracking 
+                </a>
+              </li>
+              <li>
+                <a href="https://www.amazon.com/">
+                  Warranty Information 
+                </a>
+              </li>
+              <li>
+                <a href="https://www.amazon.com/">
+                  Product Manuals / Setup Guide 
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="info_links">
+            <h5>
+              Quick Links
+            </h5>
+            <ul>
+              <li>
+                <a href="https://www.amazon.com/">
+                  Shop
+                </a>
+              </li>
+              <li>
+                <a href="{{ url_for('about_us') }}">
+                  About Us 
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_form ">
+            <h5>
+              Sign Up For Our Email List
+            </h5>
+            <form action="">
+              <input type="email" placeholder="Enter your email" />
+              <button>
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- end info_section -->
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      &copy; 2019 All Rights Reserved By
+      <a href="https://html.design/">Free Html Templates</a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="./static/js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="./static/js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- owl carousel script 
+    -->
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 0,
+      navText: [],
+      center: true,
+      autoplay: true,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  </script>
+  <!-- end owl carousel script -->
+</body>
+
+</html>
